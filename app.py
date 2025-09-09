@@ -15,7 +15,7 @@ chatbot = pipeline(
     device=device
 )
 
-st.title("🤖 Qwen Coder 2.5 7B model")
+st.title("🤖 ITOPs SLM 🧠⚙️")
 
 # Initialize chat history
 if "messages" not in st.session_state:
@@ -86,3 +86,4 @@ with st.expander("📝 Leave Feedback"):
             st.success("✅ Feedback submitted successfully!")
         else:
             st.warning("⚠️ Please enter your feedback before submitting.")
+
